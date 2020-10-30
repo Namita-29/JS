@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+	
+	
+	<script>
+		function swapcase(str) {
+		return str.replace(/([a-z]+)|([A-Z]+)/g, function(match, chr) {
+            return chr ? match.toUpperCase() : match.toLowerCase();
+        });     
+    }
+   
+    
+document.write(swapcase('bOoT pOlIsH'));
+
+
+
+
+		
+    </script>
+</body>
+</html>
