@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body>
+	<script>
+	var arr = ['A', 'b', 'c', 'C', 'C', 'D'];
+	var res = [];
+	arr.forEach(function(i){
+	if(!(res.includes(i) || res.includes(i.toLowerCase())))
+	res.push(i)
+	});
+    document.write(res);
+	</script>
+</body>
+</html>
