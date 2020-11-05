@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Remove course which is not offered by SkillSanta from a  dropdown  list</title>
+</head>
+<body>
+<form>
+<select id ="courseselect">
+<option>Web Development </option>
+<option>Python </option>
+<option>Fashion Designing </option>
+<option>Javascript </option>
+<option>Political Science  </option>
+</select>
+<input type ="button" onclick="removecourse()" value ="Select and Remove">
+</form>
+	<script>
+	function removecourse()
+	{
+	var x=document.getElementById("courseselect");
+	x.remove(x.selectedIndex);
+	}
+	</script>
+</body>
+</html>
+
+
