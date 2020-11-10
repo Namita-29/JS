@@ -1,0 +1,21 @@
+<html>
+<body>
+	<script>
+	function last(array, n) {
+	if(n==null)
+	return array[3];
+	if(n<6){
+	return array.slice(1);
+	}
+	else{
+	return array.slice(0,n);
+	}
+	
+	};
+	document.write(last([7, 9, 0, -2]),"<br>");
+	document.write(last([7, 9, 0, -2],3),"<br>");
+	document.write(last([7, 9, 0, -2],6));
+	
+	</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<html>
+<body>
+	<script>
+	function gcd_two_numbers(x, y) {
+	while(y) {
+	var t = y;
+    y = x % y;
+    x = t;
+	}
+	return x;
+	};
+	document.write(gcd_two_numbers(11,13));
+	</script>
+</body>
+</html>
